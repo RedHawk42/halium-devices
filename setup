@@ -77,6 +77,7 @@ else
             # We need to have $VENDOR, $DEVICE and $DEVICE_COMMON or
             # $PLATFORM_COMMON available for setup-makefiles.sh in the common
             # repository, therefore export them.
+            export LC_ALL=C
             export VENDOR
             export DEVICE
             DEVICE_COMMON_HOLDER=$DEVICE_COMMON
